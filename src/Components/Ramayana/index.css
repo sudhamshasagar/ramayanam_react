@@ -1,0 +1,30 @@
+  .section {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #ccc;
+  }
+
+  .buttons {
+      margin: 10px;
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+
+  .nextBtn,
+  .preBtn {
+      width: 5vw;
+      padding: 7px;
+      border-radius: 5px;
+      box-shadow: 0px 2px 0px black;
+      background-color: rgb(255, 255, 255);
+  }
+
+  .nextBtn:hover,
+  .preBtn:hover {
+      background-color: rgb(219, 219, 219);
+      box-shadow: none;
+  }

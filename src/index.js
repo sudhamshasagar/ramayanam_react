@@ -13,6 +13,7 @@ import Ramastakam from './Components/Mantras/MantraPages/Ramastakam';
 import SitaRamaStotram from './Components/Mantras/MantraPages/SitaRamaStotram';
 import SitaKavacham from './Components/Mantras/MantraPages/SitaKavacham';
 import GayatriRamayanam from './Components/Mantras/MantraPages/GayatriRamayanam';
+import Ramayana from './Components/Ramayana';
 
 const router = createBrowserRouter([{
   path: "/",
@@ -21,6 +22,10 @@ const router = createBrowserRouter([{
     {
       path: "",
       element: <Hero/>
+    },
+    {
+      path: "/ramayan",
+      element: <Ramayana/ >
     },
     {
       path: "/mantras",
