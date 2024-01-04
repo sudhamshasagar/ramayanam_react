@@ -1,0 +1,78 @@
+.logo img{
+    width: 140px;
+    height: 50px;
+  }
+  /* Add these styles to your existing CSS */
+  
+  .navigationBar {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background-color: #fff; /* White background */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Add some padding for better spacing */
+  }
+  
+  .logo img {
+    width: 140px;
+    height: 50px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tabs a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin: 0px 15px;
+    font-size: 16.5px;
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .tabs a:hover {
+    color: rgb(0, 80, 123);
+
+  }
+  
+  .toggler {
+    display: none;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 1050px) {
+    .tabs {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 60px; /* Adjust the top value according to your design */
+      left: 0;
+      right: 0;
+      background-color: rgb(152, 152, 152);
+      color: white;
+      text-align: left;
+      padding: 10px;
+    }
+    .tabs a{
+      text-align: left;
+      margin-top: 10px;
+      font-weight: 600;
+    }
+  
+    .tabs.active {
+      display: flex;
+    }
+  
+    .toggler {
+      display: block;
+    }
+  }

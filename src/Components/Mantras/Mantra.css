@@ -1,0 +1,91 @@
+.mantras{
+    display: flex;
+    flex-direction: column;
+}
+.language{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+.mantraContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 10px 5px;
+  }
+  .mantraContainer a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    flex: 1 0 18%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px; 
+    padding: 10px;
+    background-color: #01335245; /* Light background color */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  
+  .mantraContainer a:hover {
+    background-color: #FA8072;
+    transform: scale(1.01); /* Add a slight scale effect on hover */
+    cursor: pointer;
+  }
+  
+  .col h1 {
+    font-size: 16px; /* Adjust the font size as needed */
+    margin: 0; /* Remove default margin */
+  }
+  
+ /* Mantra Styles all pages */
+
+/* Mantra Container Styles */
+.mantra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Mantra Audio Styles (Adjust as needed) */
+.mantraAudio {
+  margin-top: 30px;
+}
+
+/* Mantra Display Styles */
+.mantraDisplay {
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+  gap: 20px; /* Increased gap for better spacing */
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Kannada and English Styles */
+.kannada,
+.english {
+  font-family: "Noto Sans Kannada", sans-serif;
+  text-align: justify;
+  white-space: pre-line;
+  margin-bottom: 5px;
+  background-color: antiquewhite;
+  padding: 15px; 
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.374); 
+  border-radius: 8px; 
+}
+
+/* Shloka Styles */
+p {
+  font-size: 18px; 
+  text-align: justify;
+  line-height: 1.8rem;
+  margin: 0;
+}

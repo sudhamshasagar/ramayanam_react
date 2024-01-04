@@ -1,0 +1,123 @@
+.hero-section{
+    display: flex;
+    gap: 10px;
+    padding: 35px;
+    justify-content: center;
+}
+
+.image-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.image-section img{
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 3px 1px black;
+}
+.description-section{
+    margin-top: 20px;
+}
+.description-section h1{
+    font-size: 25px;
+    color: rgb(0, 80, 123);
+    text-align: justify;
+}
+.description-section p{
+    text-align: justify;
+    line-height: 1.9 rem;
+}
+
+.about-ramayan{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.about-ramayan h1{
+    font-size: 23px;
+    margin-left: 20px;
+    color: rgb(0, 80, 123);
+}
+.about-heading {
+    margin: auto;
+    background-color: rgb(255, 242, 242);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    max-width: 90%;
+    line-height: 1.9rem;
+    text-align: justify;
+}
+
+
+
+/* Incarnation Styles */
+.about-ram{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px  auto;
+    background-color: aliceblue;
+}
+.about-ram h1{
+    text-align: center;
+}
+.incarnation_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .incarnations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%; 
+    margin: 10px; 
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    /* box-shadow: 1px 0px 3px 1px rgba(0, 0, 0, 0.459); */
+  }
+  
+  .incarnation_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .incarnation_image img {
+    width: 70%;
+    border-radius: 0px; /* Optional: Add border-radius for a rounded look */
+  }
+  
+  .incarnation_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .incarnation_info h1{
+    width: 100%;
+    text-align: center;
+    font-size: 21px;
+  }
+  
+  .incarnation_info p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #333; /* Adjust text color as needed */
+  }
+  
+  
