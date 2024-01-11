@@ -14,6 +14,7 @@ import SitaRamaStotram from './Components/Mantras/MantraPages/SitaRamaStotram';
 import SitaKavacham from './Components/Mantras/MantraPages/SitaKavacham';
 import GayatriRamayanam from './Components/Mantras/MantraPages/GayatriRamayanam';
 import Ramayana from './Components/Ramayana';
+import ContactForm from './Components/Contact/ContactUs';
 
 const router = createBrowserRouter([{
   path: "/",
@@ -62,6 +63,10 @@ const router = createBrowserRouter([{
     {
       path: "/mantras/gayatri-ramayanam",
       element: <GayatriRamayanam/>
+    },
+    {
+      path: "/contact-us",
+      element: <ContactForm/>
     }
   ]
 }])
