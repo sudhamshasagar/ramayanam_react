@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ramayanam_react/static/css/main.56553b9c.css",
+    "main.js": "/ramayanam_react/static/js/main.ddd9f7bf.js",
+    "index.html": "/ramayanam_react/index.html",
+    "main.56553b9c.css.map": "/ramayanam_react/static/css/main.56553b9c.css.map",
+    "main.ddd9f7bf.js.map": "/ramayanam_react/static/js/main.ddd9f7bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56553b9c.css",
+    "static/js/main.ddd9f7bf.js"
+  ]
+}
