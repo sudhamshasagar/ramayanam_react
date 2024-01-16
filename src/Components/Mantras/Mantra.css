@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
 }
-.language{
+.sekection{
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -35,7 +35,8 @@
   
   
   .mantraContainer a:hover {
-    background-color: #FA8072;
+    background-color: rgb(0, 80, 123);
+    color: white;
     transform: scale(1.01); /* Add a slight scale effect on hover */
     cursor: pointer;
   }
@@ -45,21 +46,19 @@
     margin: 0; /* Remove default margin */
   }
   
- /* Mantra Styles all pages */
-
-/* Mantra Container Styles */
 .mantra {
   display: flex;
+  margin-top: 40px;
+  padding: 30px;
   flex-direction: column;
   align-items: center;
 }
 
-/* Mantra Audio Styles (Adjust as needed) */
 .mantraAudio {
   margin-top: 30px;
 }
 
-/* Mantra Display Styles */
+
 .mantraDisplay {
   display: flex;
   width: 90vw;
@@ -73,10 +72,13 @@
 .kannada,
 .english {
   font-family: "Noto Sans Kannada", sans-serif;
-  text-align: justify;
   white-space: pre-line;
   margin-bottom: 5px;
-  background-color: antiquewhite;
+  width: 35vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(227, 241, 255);
   padding: 15px; 
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.374); 
   border-radius: 8px; 
@@ -84,8 +86,137 @@
 
 /* Shloka Styles */
 p {
-  font-size: 18px; 
+  font-size: 17px; 
   text-align: justify;
-  line-height: 1.8rem;
+  line-height: 2.1rem;
   margin: 0;
+}
+
+
+/* Responsiveness */
+
+@media (max-width: 767px) {
+
+  .mantras{
+    display: flex;
+    flex-direction: column;
+}
+.language{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+.mantraContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 10px 5px;
+}
+.mantraContainer a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    flex: 1 0 38%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px; 
+    padding: 10px;
+    background-color: #01335245; /* Light background color */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+  
+  
+.mantraContainer a:hover {
+    background-color: rgb(0, 80, 123);
+    color: white;
+    transform: scale(1.01); /* Add a slight scale effect on hover */
+    cursor: pointer;
+}
+  
+.col h1 {
+    font-size: 16px; /* Adjust the font size as needed */
+    margin: 0; /* Remove default margin */
+}
+
+/* Mantra Container Styles */
+.mantraDisplay{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.kannada, .english{
+  width: 80vw;
+}
+  
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+  .mantras{
+    display: flex;
+    flex-direction: column;
+}
+.language{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+.mantraContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 10px 5px;
+}
+.mantraContainer a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    flex: 1 0 38%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px; 
+    padding: 10px;
+    background-color: #01335245; /* Light background color */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+  
+  
+.mantraContainer a:hover {
+    background-color: rgb(0, 80, 123);
+    color: white;
+    transform: scale(1.01); /* Add a slight scale effect on hover */
+    cursor: pointer;
+}
+  
+.col h1 {
+    font-size: 16px; /* Adjust the font size as needed */
+    margin: 0; /* Remove default margin */
+}
+
+/* Mantra Container Styles */
+.mantraDisplay{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.kannada, .english{
+  width: 80vw;
+}
 }

@@ -1,78 +1,128 @@
-.logo img{
-    width: 140px;
-    height: 50px;
-  }
-  /* Add these styles to your existing CSS */
-  
-  .navigationBar {
-    position: sticky;
-    top: 0;
-    z-index: 20;
-    background-color: #fff; /* White background */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
-  }
-  
-  .navigation {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px; /* Add some padding for better spacing */
-  }
-  
-  .logo img {
-    width: 140px;
-    height: 50px;
-  }
-  
-  .tabs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .tabs a {
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    margin: 0px 15px;
-    font-size: 16.5px;
-    transition: color 0.3s ease; /* Smooth color transition */
-  }
-  
-  .tabs a:hover {
-    color: rgb(0, 80, 123);
+/* Add these styles to your existing CSS */
 
-  }
+/* Side Navigation Bar Container */
+.navigation {
+  display: flex;
+  position: fixed; /* Change to fixed for a fixed position */
+  top: 0;
+  left: 0;
+  z-index: 5;
+  flex-direction: column;
+  height: 100%;
+  padding: 15px;
+  background-color: rgba(251, 252, 253, 0.95); /* Adjust background color alpha for better visibility */
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2); /* Adjust box shadow for better visibility */
+  border-radius: 5px;
+}
+
+.icon img {
+  width: 120px; /* Slightly reduce the logo size */
+  height: 40px; /* Slightly reduce the logo size */
+}
+
+/* Bars Icon Styling */
+.icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px; /* Add some space between bars icon and navigation tabs */
+}
+
+.icon .fa-bars, .fa-close {
+  cursor: pointer;
+  font-size: 24px;
+}
+.fa-bar:hover, .fa-close:hover{
+  color: orange;
+}
+
+/* Navigation Tabs Styling */
+.tabs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tabs a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  margin: 15px 0;
+  font-size: 16px; /* Adjust font size for better visibility */
+  transition: color 0.3s ease;
+}
+
+.tabs a:hover {
+  color: rgb(0, 80, 123);
+}
   
-  .toggler {
-    display: none;
-    cursor: pointer;
-  }
+  /* Styles for screens smaller than 768 pixels (e.g., smartphones) */
+@media (max-width: 767px) {
+  .navigation {
+  display: flex;
+  position: fixed; /* Change to fixed for a fixed position */
+  top: 0;
+  left: 0;
+  z-index: 5;
+  flex-direction: column;
+  height: 100%;
+  padding: 15px;
+  background-color: rgba(251, 252, 253, 0.95); /* Adjust background color alpha for better visibility */
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2); /* Adjust box shadow for better visibility */
+  border-radius: 5px;
+}
+
+.icon img {
+  width: 120px; /* Slightly reduce the logo size */
+  height: 40px; /* Slightly reduce the logo size */
+}
+
+/* Bars Icon Styling */
+.icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px; /* Add some space between bars icon and navigation tabs */
+}
+
+.icon .fa-bars, .fa-close {
+  cursor: pointer;
+  font-size: 24px;
+}
+.fa-bar:hover, .fa-close:hover{
+  color: orange;
+}
+
+/* Navigation Tabs Styling */
+.tabs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tabs a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  margin: 15px 0;
+  font-size: 16px; /* Adjust font size for better visibility */
+  transition: color 0.3s ease;
+}
+
+.tabs a:hover {
+  color: rgb(0, 80, 123);
+}
   
-  @media screen and (max-width: 1050px) {
-    .tabs {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      top: 60px; /* Adjust the top value according to your design */
-      left: 0;
-      right: 0;
-      background-color: rgb(152, 152, 152);
-      color: white;
-      text-align: left;
-      padding: 10px;
-    }
-    .tabs a{
-      text-align: left;
-      margin-top: 10px;
-      font-weight: 600;
-    }
   
-    .tabs.active {
-      display: flex;
-    }
-  
-    .toggler {
-      display: block;
-    }
-  }
+}
+
+/* Styles for screens between 768 and 991 pixels (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Your responsive styles for medium-sized screens go here */
+}
+
+/* Styles for screens larger than 992 pixels (e.g., desktops) */
+@media (min-width: 992px) {
+  /* Your default styles for larger screens go here */
+}
+

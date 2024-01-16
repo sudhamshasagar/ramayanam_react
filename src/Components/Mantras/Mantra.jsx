@@ -32,7 +32,7 @@ function Mantras(){
 
     return(
         <div className="mantras">
-            <div className="language">
+            <div className="selection">
                 <label>
                     <input 
                      type="radio"

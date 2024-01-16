@@ -54,4 +54,78 @@
     padding: 10px;
     font-size: 18px;
 }
+
+
+/* Responsiveness */
+
+@media (max-width: 767px) {
+  .placeDisplay {
+    display: flex;
+    flex-direction: column;
+  }
   
+  .placeTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .placeTitle h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .placeCardContainer {
+    gap: 10px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+  }
+  
+  .placeContainer {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgba(183, 183, 183, 0.377);
+    width: 90vw;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto; 
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .name-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .name-container h3 {
+    margin: 10px 5px;
+    color: navy;
+  }
+  
+  .name-container h4 {
+    margin: 10px 5px;
+    color: #a0522d;
+  }
+  
+  .reference {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 15px;
+    text-decoration: underline;
+  }
+}
+

@@ -1,12 +1,25 @@
-body{
-
+/* body{
   height: 100%;
-}
+} */
 
-.language{
+.selection{
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 10px;
-  margin: 10px 10px 5px 5px;
+  gap: 5px;
+  margin-top: 9vh;
+  margin-right: 20px;
+
+}
+
+
+@media (max-width: 767px) {
+  .language{
+    display: flex;
+    width: 90vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
 }

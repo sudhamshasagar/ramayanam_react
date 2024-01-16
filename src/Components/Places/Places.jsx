@@ -15,105 +15,105 @@ function Places(){
         {
             nameinEnglish: "Ayodhya",
             nameinKannada: "ಅಯೋಧ್ಯೆ"
-,           img: 'https://www.abhibus.com/blog/wp-content/uploads/2023/11/Ayodhya-Ram-Mandir-History-Opening-Date-How-to-Reach.jpg',
+,           img: './Images/ayodhya.jpg',
             statenameinEnglish: "Uttar Pradesh",
             statenameinKannada: "ಉತ್ತರ ಪ್ರದೇಶ",
         },
         {
             nameinEnglish: "Chitrakoot",
             nameinKannada: "ಚಿತ್ರಕೂಟ"
-,           img: 'https://imgk.timesnownews.com/story/Chitrakoot_0.jpg',
+,           img: './Images/chitrakoot.png',
             statenameinEnglish: "Uttar Pradesh",
             statenameinKannada: "ಉತ್ತರ ಪ್ರದೇಶ",
         },
         {
             nameinEnglish: "Dandakaranya",
             nameinKannada: "ದಂಡಕಾರಣ್ಯ"
-,           img: 'https://1.bp.blogspot.com/-5F9AQ-1Kj0Y/XTsCWbxm1UI/AAAAAAAAARE/xkQCiHL0F-AxFZwj2odY-oug6_AasCzYgCLcBGAs/s1600/Dandakaranya.jpg',
+,           img: './Images/Dandakaranya.jpg',
             statenameinEnglish: "Chattisgarh",
             statenameinKannada: "ಛತ್ತೀಸ್‌ಗಡ",
         },
         {
             nameinEnglish: "Janakpur",
             nameinKannada: "ಜನಕಪುರ"
-,           img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Inside_view_of_the_Janki_Mandir_of_Janakpur%2C_Nepal..JPG/800px-Inside_view_of_the_Janki_Mandir_of_Janakpur%2C_Nepal..JPG',
+,           img: './Images/jankapur.jpg',
             statenameinEnglish: "Nepal",
             statenameinKannada: "ನೇಪಾಳ",
         },
         {
             nameinEnglish: "Nashik",
             nameinKannada: "ನಾಶಿಕ್"
-,           img: 'https://img.traveltriangle.com/blog/wp-content/uploads/2020/01/cover-image-of-Places-To-Visit-In-Nashik_7th-jan.jpg',
+,           img: './Images/nashik.jpeg',
             statenameinEnglish: "Maharastra",
             statenameinKannada: "ಮಹಾರಾಷ್ಟ್ರ",
         },
         {
             nameinEnglish: "Lepakshi",
             nameinKannada: "ಲೇಪಾಕ್ಷಿ"
-,           img: 'https://images.firstpost.com/wp-content/uploads/2023/11/Lepakshi-Temple-1.jpg?impolicy=website&width=1200&height=900',
+,           img: './Images/lepakshi.jpeg',
             statenameinEnglish: "Maharastra",
             statenameinKannada: "ಮಹಾರಾಷ್ಟ್ರ",
         },
         {
             nameinEnglish: "Ram Setu",
             nameinKannada: "ರಾಮ ಸೇತು"
-,           img: 'https://housing.com/news/wp-content/uploads/2023/08/shutterstock_1218479650-1200x700-compressed.jpg',
+,           img: './Images/ramsetu.jpg',
             statenameinEnglish: "Tamilnadu",
             statenameinKannada: "ತಮಿಳುನಾಡು",
         },
         {
-            nameinEnglish: "Anjandri",
+            nameinEnglish: "Anjanadri",
             nameinKannada: "ಅಂಜನಾದ್ರಿ"
-,           img: 'https://www.shutterstock.com/image-photo/scenic-view-old-jain-mandir-600nw-2345468529.jpg',
+,           img: './Images/anjanadri.jpg',
             statenameinEnglish: "Karnataka",
             statenameinKannada: "ಕರ್ನಾಟಕ",
         },
         {
             nameinEnglish: "Prayagraj",
             nameinKannada: "ಪ್ರಯಾಗರಾಜ್"
-,           img: 'https://www.opindia.com/wp-content/uploads/2023/06/kumbh1_20160422_600_855.jpg',
+,           img: './Images/prayagraj.jpg',
             statenameinEnglish: "Uttar Pradesh",
             statenameinKannada: "ಉತ್ತರಪ್ರದೇಶ",
         },
         {
             nameinEnglish: "Kishkindha",
             nameinKannada: "ಕಿಷ್ಕಿಂಧ"
-,           img: 'https://images.news18.com/ibnkhabar/uploads/2021/04/kishkindha1.jpg?im=FitAndFill,width=1200,height=900',
+,           img: './Images/kishkindha.jpg',
             statenameinEnglish: "Karnataka",
             statenameinKannada: "ಕರ್ನಾಟಕ",
         },
         {
             nameinEnglish: "Mithila",
             nameinKannada: "ಮಿಥಿಲಾ"
-,           img: 'https://www.holamon.cat/sites/default/files/styles/640x320/public/pla/images/2023-03/Fort_of_Darbhanga.jpg?h=924003c4&itok=5VsIlO6v',
+,           img: './Images/mithila.jpg',
             statenameinEnglish: "Bihar",
             statenameinKannada: "ಬಿಹಾರ್",
         },
         {
-            nameinEnglish: "Kapil Ashrama",
+            nameinEnglish: "Kapila Ashrama",
             nameinKannada: "ಕಪಿಲಾಶ್ರಮ"
-,           img: 'https://upload.wikimedia.org/wikipedia/commons/8/86/Kapil_Muni_Temple.jpg',
+,           img: './Images/ka.jpg',
             statenameinEnglish: "Bihar",
             statenameinKannada: "ಬಿಹಾರ್",
         },
         {
             nameinEnglish: "Ashok Vatika",
             nameinKannada: "ಅಶೋಕ ವಾಟಿಕಾ"
-,           img: 'https://www.holidest.com/images/abroad/srilanka/srilanka%20(2).jpg',
+,           img: './Images/av.jpg',
             statenameinEnglish: "Sri Lanka",
             statenameinKannada: "ಶ್ರೀಲಂಕಾ",
         },
         {
             nameinEnglish: "Hampi",
             nameinKannada: "ಹಂಪೆ"
-,           img: 'https://s3.us-west-1.amazonaws.com/goheritagerun.com/wp-content/uploads/2014/11/28105841/Vittala.jpg',
+,           img: './Images/hampi.jpg',
             statenameinEnglish: "Karnataka",
             statenameinKannada: "ಕರ್ನಾಟಕ",
         },
     ]
     return(
         <div className="placeDisplay">
-            <div className="language">
+            <div className="selection">
                 <label>
                     <input 
                      type="radio"

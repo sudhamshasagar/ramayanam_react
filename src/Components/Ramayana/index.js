@@ -8,7 +8,7 @@ export default function Ramayana() {
   const [shlokaID, SetShlokaId] = useState(0);
   console.log(shlokas[shlokaID]['audio'])
   return (
-    <div>
+    <div className="ramayan_home">
       <div
         id="edit-field-kanda-tid-wrapper"
         class="views-exposed-widget views-widget-filter-field_kanda_tid"
@@ -34,7 +34,7 @@ export default function Ramayana() {
         </div>
       </div>
       <div className="section">
-        <div class="section" id="section1">
+        <div  id="section1">
           <div>
             {shlokas[shlokaID]["kannada"].split(".")[0]}
             <br />
@@ -42,14 +42,14 @@ export default function Ramayana() {
           </div>
         </div>
 
-        <div class="section" id="section2">
+        <div  id="section2">
           <ReactAudioPlayer
             src={process.env.PUBLIC_URL + shlokas[shlokaID]['audio']} // Replace with your actual audio file URL
             controls
             volume={1.0}
           />
         </div>
-        <div class="section" id="section3">
+        <div  id="section3">
           <div>
             {shlokas[shlokaID]["english"].split(".")[0]}
             <br />
@@ -57,7 +57,6 @@ export default function Ramayana() {
           </div>
         </div>
       </div>
-      <ArrowHandler shlokaId = {shlokaID} SetShlokaId={SetShlokaId} />
     </div>
   );
 }

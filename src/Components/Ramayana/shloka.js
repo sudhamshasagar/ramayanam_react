@@ -2,21 +2,24 @@ export const shlokas = [
   {
     id:1,
     kannada:
-      "1111ತಪಸ್ಸ್ವಾಧ್ಯಾಯನಿರತಂ ತಪಸ್ವೀ ವಾಗ್ವಿದಾಂ ವರಮ್ . ನಾರದಂ ಪರಿಪಪ್ರಚ್ಛ ವಾಲ್ಮೀಕಿರ್ಮುನಿಪುಙ್ಗವಮ್ ৷৷1.1.1৷৷",
+      "ತಪಸ್ಸ್ವಾಧ್ಯಾಯನಿರತಂ ತಪಸ್ವೀ ವಾಗ್ವಿದಾಂ ವರಮ್ . ನಾರದಂ ಪರಿಪಪ್ರಚ್ಛ ವಾಲ್ಮೀಕಿರ್ಮುನಿಪುಙ್ಗವಮ್ ৷৷1.1.1৷৷",
     english:
-      "222Tapasvadhyaya niratam tapasvi vagvidam varam. naradam paripaprachha valmikir muni pungavam",
-    audio: "Songs/agartum.mp3",
-    kannada_description: "HEHEHEHEHE",
-    english_description: "HEHEHEHEHEH",
+      "Tapasvadhyaya niratam tapasvi vagvidam varam. naradam paripaprachha valmikir muni pungavam",
+    audio: "Songs/shriram.mp3",
+    kannada_description: "",
+    english_description: "",
   },
   {
     id:2,
     kannada:
-      "2222ತಪಸ್ಸ್ವಾಧ್ಯಾಯನಿರತಂ ತಪಸ್ವೀ ವಾಗ್ವಿದಾಂ ವರಮ್ . ನಾರದಂ ಪರಿಪಪ್ರಚ್ಛ ವಾಲ್ಮೀಕಿರ್ಮುನಿಪುಙ್ಗವಮ್ ৷৷1.1.1৷৷",
+      `ಕೋಽನ್ವಸ್ಮಿನ್ಸಾಂಪ್ರತಂ ಲೋಕೇ ಗುಣವಾನ್ ಕಶ್ಚ ವೀರ್ಯವಾನ್ |
+      ಧರ್ಮಜ್ಞಶ್ಚ ಕೃತಜ್ಞಶ್ಚ ಸತ್ಯವಾಕ್ಯೋ ದೃಢವ್ರತಃ || ೨ ||`,
     english:
-      "2222Tapasvadhyaya niratam tapasvi vagvidam varam. naradam paripaprachha valmikir muni pungavam",
-    audio: "Songs/agartum.mp3",
-    kannada_description: "ONEonE",
-    english_description: "ONeOne",
+      `kōnvasminsāmprataṁ lōkē guṇavān kaśca vīryavān |
+      dharmajñaśca kr̥tajñaśca satyavākyō dr̥ḍhavrataḥ || 2 ||
+      `,
+    audio: "Songs/shriram.mp3",
+    kannada_description: "",
+    english_description: "",
   },
 ];

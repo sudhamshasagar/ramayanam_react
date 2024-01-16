@@ -1,0 +1,422 @@
+/* Gurukula.css */
+
+.gurukula_home {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 25px;
+    align-items: flex-start;
+    width: 95%;
+    margin: auto;
+  }
+  
+  .image-section_gurukula {
+    width: 40%;
+  }
+  
+  .content-section_gurukula {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+  }
+  
+  .image-section_gurukula img {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-section_gurukula img:hover {
+    transform: scale(1.01);
+  }
+  
+  .content_gurukula p {
+    text-align: justify;
+    font-size: 17px;
+    line-height: 1.6;
+    color: #333;
+    margin: auto;
+  }
+  
+  /* Gurukula.css */
+
+.routes_gurukula {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    /* width: 70vw; */
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 10px 5px;
+  }
+  
+  .routes_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    width: 200px;
+  }
+  
+  .routes_container:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .routes_gurukula img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+  }
+  
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .routes_gurukula a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .routes_gurukula a:hover {
+    text-decoration: underline;
+  }
+
+  .routes_gurukula h5{
+    color: blue;
+    margin-top: 3px;
+    font-size: 11px;
+  }
+
+  /* Shridhara Swamy Page Styles */
+.content_allguru {
+  display: flex;
+  max-width: 90vw;
+  margin: auto;
+  padding: 25px;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.bio {
+  width: 65vw;
+  display: flex;
+  flex-direction: column;
+}
+.bio h1{
+  color: rgb(0, 80, 123);
+  font-weight: 700;
+  font-size: 25px;
+  /* margin: 2px 0px; */
+}
+.bio iframe{
+  border-radius: 10px;
+}
+
+.profile_card {
+  border-radius: 10px;
+  box-shadow: 0.3px 0.3px 0px 0px rgba(1, 32, 63, 0.753);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:20vw;
+  margin-top: 40px;
+  padding: 10px;
+}
+.bio p{
+  width: 93%;
+  margin:-20px -14px ;
+  font-size: 17px;
+  padding: 15px;
+  line-height: 1.9rem;
+  text-align: justify;
+}
+
+.profile_card img {
+  width: 100%;
+}
+.profile_card h2{
+  margin: 3px 0px;
+  text-align: center;
+  font-size: 17px;
+}
+.profile_card h3{
+  margin: 3px 0px;
+  text-align: center;
+  color: rgb(255, 33, 33);
+  font-size: 13px;
+}
+
+
+/* Miracles_Shridhara Swamy Section Stylings */
+
+
+.content_continued{
+  display: flex;
+  flex-direction: column;
+  max-width: 90vw;
+  margin: auto;
+  padding: 25px;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.content_continued h1{
+  color: rgb(0, 80, 123);
+  font-weight: 700;
+  font-size: 25px;
+}
+.miracle_img_content{
+  width: 90vw;
+  padding: 25px;
+  display: flex;
+  margin-top: -25px;
+  justify-content: space-around;
+}
+.miracle2{
+  flex-direction: row-reverse;
+}
+
+.miracle_img_content p{
+  line-height: 1.9rem;
+  /* text-wrap: wrap; */
+  font-size: 17px;
+  width: 60vw;
+}
+.miracle_img_content img{
+  border-radius: 10px;
+  width: 350px;
+}
+
+.summary{
+  background-color: aliceblue;
+  display: flex;
+  max-width: 90vw;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.summary p{
+  font-weight: 500;
+  font-size: 17px;
+  padding:20px;
+}
+.promises {
+  /* max-width: 600px; */
+  width: 80vw;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.miracles {
+  color: #333;
+  text-align: center;
+}
+
+.promise-list {
+  list-style-type: none;
+  /* width: 65vw; */
+  padding: 0;
+}
+
+.promise-list li {
+  width: 30vw;
+  margin: 10px 10px 10px 0;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  text-align: left;
+}
+
+.promise-list li:hover {
+  background-color: #e0e0e0;
+}
+
+
+
+
+.location p{
+  padding: 20px;font-size: 17px;
+  line-height: 1.9rem;
+}
+.location iframe{
+  border-radius: 10px;
+  display: flex;
+  border-style: none;
+  justify-content: center;
+  margin: auto;
+}
+/* Brindavan Image Stylings */
+
+.brindavan_images{
+  display: flex;
+  gap: 10px;
+}
+.brindavan_images img{
+  margin: 20px 0px 5px;
+  width: 459px;
+  border-radius: 10px;
+}
+/* Parampara Styles */
+.parampara-list {
+  width: 90vw;
+  margin: 10px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  /* margin-top: 0px; */
+}
+
+.parampara-list li {
+  margin: 10px 0;
+  width: 18vw;
+  gap: 5px;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.parampara-list li:before {
+  content: '\2022'; /* Unicode bullet character */
+  font-size: 24px;
+  color: #3498db;
+  margin-right: 15px;
+}
+
+.parampara-list li h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.parampara-list li p {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.parampara-list li:last-child {
+  border-bottom: none;
+}
+
+.parampara-list li:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.02);
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+
+/* Guru Charitra Page Designs */
+
+.charitra_book{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  background-color: #cccccc61;
+  max-width: 80vw;
+  padding: 25px;
+  margin-top: 20px;
+  border-radius: 20px;
+  height: 100%;
+}
+.unique{
+  padding: 15px;
+  width: 79vw;
+}
+.charitra_book h1{
+  color: rgb(0, 80, 123);
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.para_image{
+  margin-top: -15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.para_image p{
+  padding: 15px;
+  width: 60vw;
+}
+.para_image_reverse p{
+  padding: 15px;
+  width: 60vw;
+}
+.para_image img{
+  margin-top: 22px;
+  border-radius: 10px;
+  width: 400px;
+}
+.para_image_reverse img{
+  margin-top: 22px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.para_image_reverse{
+  display: flex;
+  margin-top: -15px;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.img-caption{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-caption h6{
+  color: red;
+  text-align: center;
+  margin-top: 3px;
+  width: 25vw;
+  text-wrap: wrap;
+}

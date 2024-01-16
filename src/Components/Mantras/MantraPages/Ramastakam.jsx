@@ -67,7 +67,7 @@ function Ramastakam() {
     return(
         <div className="mantra">
             <div className="mantraAudio">
-                <audio src= 'https://www.youtube.com/live/KZIqWWBO52M?si=SOOBphi7Nw62nC-0' controls/>
+                <audio src= '/Songs/shriram.mp3' controls/>
             </div>
             <div className="mantraDisplay">
                 <div className="kannada">
