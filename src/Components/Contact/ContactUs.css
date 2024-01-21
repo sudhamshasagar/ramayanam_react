@@ -148,6 +148,7 @@
     }
     .developer-cards{
       display: flex;
+      gap: 2vh;
       flex-direction: column;
       align-items: center;
       justify-content: center;
@@ -156,12 +157,21 @@
   .developers-section h2{
       text-align: center;
   }
+  .developers-section{
+    /* gap: 3vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
   .developer-card {
       display: flex;
-      /* flex-direction: column; */
+      flex-direction: column;
       width: 90%;
+      justify-content: center;
       align-items: center;
-      margin: 20px;
+      margin: auto;
+      /* gap: 5vh; */
       background-color: #fff;
       padding: 20px;
       border: 1px solid #ddd;
@@ -169,10 +179,14 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
     .developer-image {
+      margin-bottom: 10px;
       width: 150px;
       height: 150px;
       border-radius: 50%;
-      margin-right: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* margin-right: 20px; */
     }
     
     .developer-info {
@@ -252,10 +266,12 @@
       text-align: center;
       margin-bottom: 20px;
     }
+    
     .developer-cards{
       display: flex;
       flex-direction: column;
       align-items: center;
+      gap: 30px;
       justify-content: center;
       margin: auto;
     }
@@ -265,6 +281,7 @@
   .developer-card {
       display: flex;
       /* flex-direction: column; */
+      /* gap: 5vh; */
       width: 90%;
       align-items: center;
       margin: 20px;
