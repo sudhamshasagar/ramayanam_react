@@ -17,9 +17,9 @@ function Header() {
                     ) : (
                         <i className="fa-solid fa-bars" onClick={showNavBar}></i>
                 )}
-                <img src = './Images/logo.png'/>
+                <img src = './Images/logo.png' alt="logo" loading="lazy"/>
             </div>
-            <div className="tabs" style={{display: isOpen? 'flex': 'none'}}>
+            <div className="tabs" style={{display: isOpen? 'flex': 'none'}} onClick={showNavBar}>
                     <NavLink to="/" style={({isActive}) => (isActive? {color: 'red'} : {color: 'black'})}>Home</NavLink>
                     <NavLink to="/ramayan" style={({isActive}) => (isActive? {color: 'red'} : {color: 'black'})}>Ramayana</NavLink>
                     <NavLink to="/mantras" style={({isActive}) => (isActive? {color: 'red'} : {color: 'black'})}>Ram Mantras</NavLink>

@@ -1,0 +1,130 @@
+.ramayana-list{
+    display: flex;
+    /* width: 90vw; */
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+}
+.ramayana-list li{
+    width: 15vw;
+    background-color: rgb(246, 246, 246);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 1px 1px black;
+}
+.ram-heading h1{
+    margin-left: 35px;
+    font-size: 25px;
+    color: rgb(0, 80, 123);
+}
+.ramayana-list a{
+    font-weight: 600;
+    text-decoration: none;
+}
+.ramayana-list li:hover{
+    background-color: azure;
+}
+.notice{
+    width: 90vw;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 15px;
+}
+.notice h2{
+    font-size: 18px;
+
+}
+
+@media (max-width: 767px) {
+    .ramayana-list{
+        display: flex;
+        /* width: 90vw; */
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 10px;
+    }
+    .ramayana-list li{
+        width: 35vw;
+        background-color: rgb(246, 246, 246);
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 1px 0px 1px 1px black;
+    }
+    .ram-heading h1{
+        margin-left: 35px;
+        font-size: 25px;
+        color: rgb(0, 80, 123);
+    }
+    .ramayana-list a{
+        font-weight: 600;
+        text-decoration: none;
+    }
+    .ramayana-list li:hover{
+        background-color: azure;
+    }
+    .notice{
+        width: 90vw;
+        margin: auto;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aliceblue;
+        padding: 15px;
+    }
+    .notice h2{
+        font-size: 18px;
+    
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+
+    .ramayana-list{
+        display: flex;
+        /* width: 90vw; */
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 10px;
+    }
+    .ramayana-list li{
+        width: 35vw;
+        background-color: rgb(246, 246, 246);
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 1px 0px 1px 1px black;
+    }
+    .ram-heading h1{
+        margin-left: 35px;
+        font-size: 25px;
+        color: rgb(0, 80, 123);
+    }
+    .ramayana-list a{
+        font-weight: 600;
+        text-decoration: none;
+    }
+    .ramayana-list li:hover{
+        background-color: azure;
+    }
+    .notice{
+        width: 90vw;
+        margin: auto;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aliceblue;
+        padding: 15px;
+    }
+    .notice h2{
+        font-size: 18px;
+    
+    }
+
+}

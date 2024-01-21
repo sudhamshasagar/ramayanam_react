@@ -30,7 +30,10 @@ function Raghavendra() {
       For those planning a visit, Mantralayam is approximately 382 kilometers away from Bangalore and 532 kilometers from Mysore. These distances underscore the pilgrimage's significance, offering devotees and spiritual seekers a serene and spiritually enriched experience in the tranquil surroundings along the Tungabhadra River.`,
       about_village_kannada: `ಭಾರತದ ಆಂಧ್ರಪ್ರದೇಶದ ಕರ್ನೂಲ್ ಜಿಲ್ಲೆಯಲ್ಲಿ ನೆಲೆಸಿರುವ ಮಂತ್ರಾಲಯವು ತುಂಗಭದ್ರಾ ನದಿಯ ದಡದಲ್ಲಿ ನೆಲೆಗೊಂಡಿರುವ ಪವಿತ್ರ ಯಾತ್ರಿಕರ ಗ್ರಾಮವಾಗಿದ್ದು, ಕರ್ನಾಟಕದೊಂದಿಗೆ ತನ್ನ ಗಡಿಯನ್ನು ಹಂಚಿಕೊಳ್ಳುತ್ತದೆ. ಗಮನಾರ್ಹವಾಗಿ, ಇದು 17 ನೇ ಶತಮಾನದಲ್ಲಿ ವಾಸಿಸುತ್ತಿದ್ದ ಗೌರವಾನ್ವಿತ ಸಂತ ರಾಘವೇಂದ್ರ ತೀರ್ಥರ ವಿಶ್ರಾಂತಿ ಸ್ಥಳ (ಸಮಾಧಿ) ಎಂದು ಹೆಸರಾಗಿದೆ.
 
-      ಭೇಟಿ ನೀಡಲು ಯೋಜಿಸುವವರಿಗೆ, ಮಂತ್ರಾಲಯವು ಬೆಂಗಳೂರಿನಿಂದ ಸರಿಸುಮಾರು 382 ಕಿಲೋಮೀಟರ್ ಮತ್ತು ಮೈಸೂರಿನಿಂದ 532 ಕಿಲೋಮೀಟರ್ ದೂರದಲ್ಲಿದೆ. ಈ ದೂರಗಳು ತೀರ್ಥಯಾತ್ರೆಯ ಮಹತ್ವವನ್ನು ಒತ್ತಿಹೇಳುತ್ತವೆ, ಭಕ್ತರು ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಅನ್ವೇಷಕರಿಗೆ ತುಂಗಭದ್ರಾ ನದಿಯ ಉದ್ದಕ್ಕೂ ಇರುವ ಪ್ರಶಾಂತ ಪರಿಸರದಲ್ಲಿ ಪ್ರಶಾಂತ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕವಾಗಿ ಶ್ರೀಮಂತ ಅನುಭವವನ್ನು ನೀಡುತ್ತವೆ.`
+      ಭೇಟಿ ನೀಡಲು ಯೋಜಿಸುವವರಿಗೆ, ಮಂತ್ರಾಲಯವು ಬೆಂಗಳೂರಿನಿಂದ ಸರಿಸುಮಾರು 382 ಕಿಲೋಮೀಟರ್ ಮತ್ತು ಮೈಸೂರಿನಿಂದ 532 ಕಿಲೋಮೀಟರ್ ದೂರದಲ್ಲಿದೆ. ಈ ದೂರಗಳು ತೀರ್ಥಯಾತ್ರೆಯ ಮಹತ್ವವನ್ನು ಒತ್ತಿಹೇಳುತ್ತವೆ, ಭಕ್ತರು ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಅನ್ವೇಷಕರಿಗೆ ತುಂಗಭದ್ರಾ ನದಿಯ ಉದ್ದಕ್ಕೂ ಇರುವ ಪ್ರಶಾಂತ ಪರಿಸರದಲ್ಲಿ ಪ್ರಶಾಂತ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕವಾಗಿ ಶ್ರೀಮಂತ ಅನುಭವವನ್ನು ನೀಡುತ್ತವೆ.`,
+      pontiff_title_english: `Shri Subudhendra Teertha Swamiji`,
+      pontiff_title_kannada: `ಶ್ರೀ ಸುಬುಧೇಂದ್ರ ಸ್ವಾಮಿಜಿ`,
+      pontiff_img: `/Images/sbt.jpg`
   }]
 
 
@@ -95,62 +98,62 @@ function Raghavendra() {
       "Sri Subudhendra Teertharu"
   ]
 
-  const paramapa_kannada = [
-      "ಶ್ರೀ ಹಂಸನಾಮಕ ಪರಮಾತ್ಮ",
-      "ಶ್ರೀ ಚತುರ್ಮುಖ ಬ್ರಹ್ಮ",
-      "ಶ್ರೀ ಸನಕ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಸನಂದನ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಸನತ್ಕುಮಾರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಸನಾತನ ತೀರ್ಥರು",
-      "ಶ್ರೀ ದೂರ್ವಾಸ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಜ್ಞಾನನಿಧಿ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಗರುಡ ವಾಹನ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಕೈವಲ್ಯ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಜ್ಞಾನೇಶ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಪರತೀರ್ಥರು",
-      "ಶ್ರೀ ಸತ್ಯಪ್ರಜ್ಞಾ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಪ್ರಜ್ಞಾ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಅಚ್ಯುತಪ್ರೇಕ್ಷಾಾಚಾರ್ಯರು",
-      "ಶ್ರೀ ಮಧ್ವಾಚಾರ್ಯರು",
-      "ಶ್ರೀ ಪದ್ಮನಾಭ ತೀರ್ಥರು",
-      "ಶ್ರೀ ನರಹರಿ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಮಾಧವ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಅಕ್ಷೋಭ್ಯ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಜಯತೀರ್ಥರು",
-      "ಶ್ರೀ ವಿದ್ಯಾಧಿರಾಜ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಕವೀಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ವಾಗೀಶ ತೀರ್ಥರು",
-      "ಶ್ರೀ ರಾಮಚಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ವಿಬುಧೇಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಜಿತಾಮಿತ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ರಘುನಂದನ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಸುರೇಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ವಿಜಯೀಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಸುಧೀಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ರಾಘವೇಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಯೋಗೀಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಸೂರೇಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಸುಮತೀಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಉಪೇಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ವದೀಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ವಸುಧೇಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ವರದೇಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಧೀರೇಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಭುವನೇಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಸುಬೋಧೇಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಸುಜನೇಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಸುಜ್ಞಾನೇಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಸುಧರ್ಮೇಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಸುಗುಣೇಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಸುಪ್ರಜ್ಞೇಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಸುಕೃತೀಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಸುಶೀಲೇಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಸುವ್ರತೀಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಸುಯಮೀಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಸುಜಯೀಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಸುಶಮೀಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಸುಯತೀಂದ್ರ ತೀರ್ಥರು",
-      "ಶ್ರೀ ಸುಬುಧೇಂದ್ರ ತೀರ್ಥರು"]
+  // const paramapa_kannada = [
+  //     "ಶ್ರೀ ಹಂಸನಾಮಕ ಪರಮಾತ್ಮ",
+  //     "ಶ್ರೀ ಚತುರ್ಮುಖ ಬ್ರಹ್ಮ",
+  //     "ಶ್ರೀ ಸನಕ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಸನಂದನ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಸನತ್ಕುಮಾರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಸನಾತನ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ದೂರ್ವಾಸ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಜ್ಞಾನನಿಧಿ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಗರುಡ ವಾಹನ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಕೈವಲ್ಯ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಜ್ಞಾನೇಶ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಪರತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಸತ್ಯಪ್ರಜ್ಞಾ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಪ್ರಜ್ಞಾ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಅಚ್ಯುತಪ್ರೇಕ್ಷಾಾಚಾರ್ಯರು",
+  //     "ಶ್ರೀ ಮಧ್ವಾಚಾರ್ಯರು",
+  //     "ಶ್ರೀ ಪದ್ಮನಾಭ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ನರಹರಿ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಮಾಧವ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಅಕ್ಷೋಭ್ಯ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಜಯತೀರ್ಥರು",
+  //     "ಶ್ರೀ ವಿದ್ಯಾಧಿರಾಜ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಕವೀಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ವಾಗೀಶ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ರಾಮಚಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ವಿಬುಧೇಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಜಿತಾಮಿತ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ರಘುನಂದನ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಸುರೇಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ವಿಜಯೀಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಸುಧೀಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ರಾಘವೇಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಯೋಗೀಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಸೂರೇಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಸುಮತೀಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಉಪೇಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ವದೀಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ವಸುಧೇಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ವರದೇಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಧೀರೇಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಭುವನೇಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಸುಬೋಧೇಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಸುಜನೇಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಸುಜ್ಞಾನೇಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಸುಧರ್ಮೇಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಸುಗುಣೇಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಸುಪ್ರಜ್ಞೇಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಸುಕೃತೀಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಸುಶೀಲೇಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಸುವ್ರತೀಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಸುಯಮೀಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಸುಜಯೀಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಸುಶಮೀಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಸುಯತೀಂದ್ರ ತೀರ್ಥರು",
+  //     "ಶ್ರೀ ಸುಬುಧೇಂದ್ರ ತೀರ್ಥರು"]
 
   function renderTitle(index){
     if(language === 'english'){
@@ -159,19 +162,9 @@ function Raghavendra() {
       return listings_kannada[index]
     }
   }
-
-  function renderParampara(){
-    if(language==='english'){
-      return parampara_english;
-    }else{
-      return paramapa_kannada;
-    }
-  }
-
-
-  return (
-    <div className='home_gurupages'>
-      <div className="selection">
+  return(
+    <div className="home_gurupages">
+        <div className="selection">
         <label>
           <input 
             type="radio"
@@ -189,64 +182,84 @@ function Raghavendra() {
           />Kannada
         </label>
       </div>
-      <div className="content_allguru">
-          <div className="bio">
-            <h1 className='earlyLife'>{renderTitle(0)}</h1>
-            
-            {contents.map((content, index)=>{
-              return(
-                <>
-                  <p>{language === 'english' ? content.early_life_english : content.early_life_kannada}</p>
-                  <div className="brindavan_images">
-                    {content.img.map((image, index) => (
-                      <img key={index} src={image} alt={`Shri Raghavendra Brindavana ${index + 1}`} />
-                    ))}
-                  </div>
-                </>
-              )
-            })}
-
-            <br></br>
-
+      <div className="bio">
+        <div className="content_profile">
+            <div className="content_p">
+                <h1 className='earlyLife'>{renderTitle(0)}</h1>
+                {contents.map((content, index)=>{
+                return(
+                    <>
+                    <p>{language === 'english' ? content.early_life_english : content.early_life_kannada}</p>
+                    <div className="brindavan_images">
+                        {content.img.map((image, index) => (
+                        <img key={index} src={image} alt={`Shri Raghavendra Brindavana ${index + 1}`} loading="lazy" />
+                        ))}
+                    </div>
+                    </>
+                )
+                })}
+            </div>
+            <div className="profile_card">
+            {contents.map((content)=>{
+                    return(
+                    <>
+                        <img src={content.profile_img} alt= 'Raghavendra Swamy' loading="lazy"/>
+                        <h2>
+                        {language=== 'english'? content.name_english : content.name_kannada }
+                        </h2>
+                        <h3><h3>{language=== 'english'? content.birth_english : content.birth_kannada }</h3></h3>
+                    </>
+                    )
+                })}
+          </div>
+        </div>
+        <div className="present-pontiff">
+            <div className="pontiff_title">
+                  {contents.map((content)=>{
+                    return(
+                      <h2>
+                        {language === 'english'? content.pontiff_title_english:content.pontiff_title_kannada}
+                      </h2>
+                    )
+                  })}
+            </div>
+            <div className="pontiff_content_img">
+                <div className="pontiff_content">
+                    <p>Sri Subudhendra Tirtha was appointed as successor by Sri Suyateendra Tirtha in the year 2014.Growing up under the guidance of his grandfather and father in their earlier stages of life, Sri Raja S. Pavamanacharya became accustomed to the traditions of the mutt (monastic institution) and familiarized himself with Mantralayam and its surroundings. From a very young age, he showed keen interest in and actively participated in all the activities and functions of the mutt.</p>
+                </div>
+                <div className="pontiff_img">
+                    {contents.map((content)=>{
+                      return(
+                        <img src={content.pontiff_img} alt='pontiff' loading="lazy"/>
+                      )
+                    })}
+                </div>
+            </div>
+        </div>
+        <div className="parampara_content">
             <h1 className='parampara'>{renderTitle(1)}</h1>
-            <div className="paramapa_content">
-              <div className="parampara-list">
+            <div className="parampara-list">
                 <ul>
                   {parampara_english.map((lineage, index) => (
                     <li key={index}>{lineage}</li>
                   ))}
                 </ul>
-              </div>
             </div>
-            <div className="location">
-              {contents.map((content)=>{
+        </div>
+        <div className="location">
+            {contents.map((content)=>{
                 return(
                   <>
                   <h1>{language === 'english'? content.village_english: content.village_kannada}</h1>
                   <p>{language === 'english'? content.about_village_english: content.about_village_kannada}</p>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3856.4438324263324!2d75.32988167487801!3d14.856440285660751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb941e64a151363%3A0x65c387bbee978068!2sVaradahalli%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1705026509641!5m2!1sen!2sin" width="1200" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7672.797775155312!2d77.41973159091071!3d15.940532438881649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb63b1d5068994b%3A0x55a0916ad10f9114!2sMantralayam%2C%20Andhra%20Pradesh%20518345!5e0!3m2!1sen!2sin!4v1705811100029!5m2!1sen!2sin" width="600" height="450"allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='Map of Mantralaya'></iframe>
                   </>
                 )
-              })}
-          </div>
-          </div>
-          <div className="profile_card">
-          {contents.map((content)=>{
-                return(
-                  <>
-                    <img src={content.profile_img} alt= 'Raghavendra Swamy'/>
-                    <h2>
-                      {language=== 'english'? content.name_english : content.name_kannada }
-                    </h2>
-                    <h3><h3>{language=== 'english'? content.birth_english : content.birth_kannada }</h3></h3>
-                  </>
-                )
-              })}
-          </div>
+            })}
+        </div>
       </div>
-      
     </div>
-  )
+)
 }
 
 export default Raghavendra;

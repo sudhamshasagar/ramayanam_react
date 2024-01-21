@@ -33,9 +33,9 @@ function Home() {
         }
     ]
 
-    const gurukula = ['Shri Guru Charitre', 'Shri Adi Shankaracharya', 'Shri Shridhara Swamy', 'Shri Raghavendra Swamy']
+    const gurukula = ['Shri Adi Shankaracharya', 'Shri Shridhara Swamy', 'Shri Raghavendra Swamy']
 
-    const data_list_images = [`./Images/datta.jpg`,`./Images/shankara.jpg`, `/Images/shridharaswamy.jpg`, `/Images/Raghavendra.jpg`]
+    const data_list_images = [`./Images/shankara.jpg`, `/Images/shridharaswamy.jpg`, `/Images/Raghavendra.jpg`]
 
     const labels = [
         {
@@ -54,7 +54,7 @@ function Home() {
     console.log(data[0].english);
   return (
     <>
-        <div className="language">
+        <div className="selection">
                 <label>
                     <input 
                      type="radio"
@@ -77,7 +77,7 @@ function Home() {
                         {gurukula.map((data, index)=>{
                             return ( <Link to={`/gurukula/${data.toLowerCase().replace(/\s+/g, '-')}`}>
                                 <div className='routes_container'>
-                                    <img src={data_list_images[index]}/>
+                                    <img src={data_list_images[index]} alt='guruphotos' loading="lazy"/>
                                     <li>{data}</li>
                                     {labels.map((label)=>{
                                         return(
@@ -93,7 +93,7 @@ function Home() {
             <div className="image-section_gurukula">
                 {data.map((content)=>{
                     return(
-                        <img src={content.img} alt='Image Representing a Guru'/>
+                        <img src={content.img} alt='Guru' loading="lazy"/>
                     )
                 })}
             </div>

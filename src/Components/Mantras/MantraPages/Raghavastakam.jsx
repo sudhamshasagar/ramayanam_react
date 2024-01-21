@@ -108,9 +108,6 @@ function Raghavastakam(){
     ]
     return(
         <div className="mantra">
-            <div className="mantraAudio">
-                <audio src= '/Songs/shriram.mp3' controls/>
-            </div>
             <div className="mantraDisplay">
                 <div className="kannada">
                     {raghavastakam.map((mantra)=>{

@@ -102,118 +102,114 @@ function Shridhara() {
     }
   }
   
-  return (
-    <div className='home_gurupages'>
-      <div className="selection">
-                <label>
-                    <input 
-                     type="radio"
-                     name="language"
-                     checked={language === 'english'}
-                     onChange={() => setLanguage("english")}
-                    />English
-                </label>
-                <label>
-                    <input 
-                     type="radio"
-                     name="language"
-                     checked={language === 'kannada'}
-                     onChange={() => setLanguage("kannada")}
-                    />Kannada
-                </label>
+  return(
+    <div className="home_gurupages">
+        <div className="selection">
+            <label>
+                <input 
+                 type="radio"
+                 name="language"
+                 checked={language === 'english'}
+                 onChange={() => setLanguage("english")}
+                />English
+            </label>
+            <label>
+                <input 
+                 type="radio"
+                 name="language"
+                 checked={language === 'kannada'}
+                 onChange={() => setLanguage("kannada")}
+                />Kannada
+            </label>
       </div>
-      <div className="content_allguru">
-          <div className="bio">
-            <h1 className='earlyLife'>{renderTitle(0)}</h1>
+        <div className="bio">
+            <div className="content_profile">
+                <div className="content_p">
+                    <h1 className='earlyLife'>{renderTitle(0)}</h1>
+                    {contents.map((content)=>{
+                        return(
+                            <p>{language === 'english' ? content.early_life_english : content.early_life_kannada}</p>
+                        )
+                    })}
+                </div>
+                <div className="profile_card">
+                    {contents.map((content)=>{
+                        return(
+                        <>
+                            <img src={content.profile_img} alt='Shridhara Swamy' loading="lazy"/>
+                            <h2>
+                            {language=== 'english'? content.name_english : content.name_kannada }
+                            </h2>
+                            <h3><h3>{language=== 'english'? content.birth_english : content.birth_kannada }</h3></h3>
+                        </>
+                        )
+                    })}
+                </div>
+            </div>
+            <div className="rare_video">
+                <h1 className='rareVideo'>{renderTitle(1)}</h1>
+                <iframe  
+                        // height="315" 
+                        src="https://www.youtube.com/embed/rJCSdfZPE5A?si=67-op7gaRzwPKWjN" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+            </div>
+            <div className="content_continued">
+                <h1 className='miracles'>{renderTitle(3)}</h1>
+                <div className="miracle_img_content">
+                    {contents.map((content)=>{
+                        return(
+                        <>
+                        <p>{language === 'english'? content.miracles_english[0] : content.miracles_kannada[0]}</p>
+                        <img src={content.img[0]} alt='miracle' loading="lazy"/>
+                        {/* <img src={content.img[0]}/> */}
 
-            {contents.map((content)=>{
-              return(
-                <p>{language === 'english' ? content.early_life_english : content.early_life_kannada}</p>
-              )
-            })}
-
-            <br></br>
-
-            <h1 className='rareVideo'>{renderTitle(1)}</h1>
-
-            <iframe width="925" 
-                    height="315" 
-                    src="https://www.youtube.com/embed/rJCSdfZPE5A?si=67-op7gaRzwPKWjN" 
-                    title="YouTube video player" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-            </iframe>
-
-          </div>
-          <div className="profile_card">
-              {contents.map((content)=>{
+                        </>
+                        )
+                    })}
+                </div>
+                <div className="miracle_img_content miracle2">
+                    {contents.map((content)=>{
+                        return(
+                        <>
+                        <p>{language === 'english'? content.miracles_english[1] : content.miracles_kannada[1]}</p>
+                        <img src={content.img[1]} alt='miracle' loading="lazy"/>
+                        </>
+                        )
+                    })}
+                </div>
+                <div className="summary">
+                    {contents.map((content)=>{
+                        return(
+                        <p>{language==='english'? content.miracle_summary_english: content.miracle_summary_kannada}</p>
+                        )
+                    })}
+                </div>
+            </div>
+            <div className="promises">
+                <h1 className='miracles'>{renderTitle(2)}</h1>
+                <ul className="promise-list">
+                    {promise && promise.map((content) => (
+                    <li key={content.id}>{content.id}. {language === 'english' ? content.english : content.kannada}</li>
+                    ))}
+                </ul>
+            </div>
+            <div className="location">
+                {contents.map((content)=>{
                 return(
-                  <>
-                    <img src={content.profile_img} alt='Shridhara Swamy'/>
-                    <h2>
-                      {language=== 'english'? content.name_english : content.name_kannada }
-                    </h2>
-                    <h3><h3>{language=== 'english'? content.birth_english : content.birth_kannada }</h3></h3>
-                  </>
+                    <>
+                    <h1>{language === 'english'? content.village_english: content.village_kannada}</h1>
+                    <p>{language === 'english'? content.about_village_english: content.about_village_kannada}</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3856.4438324263324!2d75.32988167487801!3d14.856440285660751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb941e64a151363%3A0x65c387bbee978068!2sVaradahalli%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1705026509641!5m2!1sen!2sin" width="1200" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='Map of Varadahalli'></iframe>
+                    </>
                 )
-              })}
-          </div>
-      </div>
-      <div className="content_continued">
-        <h1 className='miracles'>{renderTitle(3)}</h1>
-        <div className="miracle_img_content">
-          {contents.map((content)=>{
-            return(
-              <>
-              <p>{language === 'english'? content.miracles_english[0] : content.miracles_kannada[0]}</p>
-              <img src={content.img[0]}/>
-              {/* <img src={content.img[0]}/> */}
-
-              </>
-            )
-          })}
+                })}
+            </div>
         </div>
-        <div className="miracle_img_content miracle2">
-          {contents.map((content)=>{
-            return(
-              <>
-              <p>{language === 'english'? content.miracles_english[1] : content.miracles_kannada[1]}</p>
-              <img src={content.img[1]}/>
-              </>
-            )
-          })}
-        </div>
-        <div className="summary">
-          {contents.map((content)=>{
-            return(
-              <p>{language==='english'? content.miracle_summary_english: content.miracle_summary_kannada}</p>
-            )
-          })}
-        </div>
-        <div className="promises">
-          <h1 className='miracles'>{renderTitle(2)}</h1>
-          {console.log(contents.promise)} 
-          <ul className="promise-list">
-            {promise && promise.map((content) => (
-              <li key={content.id}>{content.id}. {language === 'english' ? content.english : content.kannada}</li>
-            ))}
-          </ul>
-        </div>
-
-        <div className="location">
-            {contents.map((content)=>{
-              return(
-                <>
-                <h1>{language === 'english'? content.village_english: content.village_kannada}</h1>
-                <p>{language === 'english'? content.about_village_english: content.about_village_kannada}</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3856.4438324263324!2d75.32988167487801!3d14.856440285660751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb941e64a151363%3A0x65c387bbee978068!2sVaradahalli%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1705026509641!5m2!1sen!2sin" width="1200" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </>
-              )
-            })}
-        </div>
-      </div>
     </div>
-  )
+)
 }
 
 export default Shridhara;

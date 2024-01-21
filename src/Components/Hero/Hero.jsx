@@ -8,18 +8,10 @@ function Hero(){
 
   const contents = [
     { 
-      img: "./ramayan2.jpeg",
+      img: "./Images/ramayan2.jpeg",
       enlish_heading: `Welcome to our sacred online space dedicated to Shri Ram and the profound teachings of the Ramayan`,
       kannada_heading: `ಶ್ರೀರಾಮನಿಗೆ ಮತ್ತು ರಾಮಾಯಣದ ಆಳವಾದ ಬೋಧನೆಗಳಿಗೆ ಮೀಸಲಾಗಿರುವ ನಮ್ಮ ಪವಿತ್ರ ಆನ್‌ಲೈನ್ ಜಾಗಕ್ಕೆ ಸುಸ್ವಾಗತ`,
-      english_content: `Shri Ram, the epitome of virtue and perfection, embodies an emotion cherished by millions of Indians who believe in the divine. It is our privilege and joy to present a comprehensive project that unfolds the timeless saga of Ramayan, exploring the life of Shri Ram and delving into the significance of the Guru in our lives.
-
-      Discover the complete Valmiki Ramayan, thoughtfully narrated in Kannada and English, presented in a captivating story format for easy comprehension. Immerse yourself in the spiritual essence by exploring translations of Ram Mantras, details about the sacred places mentioned in the Ramayana, and insights into plants with medicinal uses mentioned in the epic.
-      
-      Our endeavor extends beyond the narrative, encompassing a global perspective with a list of temples dedicated to Shri Ram around the world. The vision behind this project was inspired by the IITs, and with the grace of Shri Ram, it has evolved into a comprehensive exploration of the divine.
-      
-      In acknowledging the pivotal role of the Guru, we invite you to delve into the Guru Charitra, explore the Guru Paramapara of Shri Adi Shankaracharya, and learn about the lives of revered figures such as Shri Raghavendra Swamy and Shri Shridhara Swamy.
-      
-      As we align our efforts with the divine timing of the Pranapratishta of Shri Ram on January 22nd in Ayodhya, we are excited to announce the launch of our website on this auspicious day. May the wisdom, teachings, and blessings of Shri Ram and the Gurus illuminate your path as you explore the sacred content on our home page. Welcome to a journey of spiritual discovery and enlightenment.`,
+      english_content: `Shri Ram, the epitome of virtue and perfection, embodies an emotion cherished by millions of Indians who believe in the divine. Embarking on a spiritual odyssey inspired by an IIT project, I proudly present "its.ramayan," a bilingual website seamlessly merging Kannada and English to unfold the rich tapestry of Valmiki Ramayana and various dimensions of Hindu spirituality. This digital sanctuary encapsulates the complete Valmiki Ramayana, elucidates the ten incarnations of Lord Vishnu, and delves into the lives of spiritual luminaries like Adi Shankaracharya, Shri Raghavendra Swamy, Shri Shridhara Swamy, and the revered Shri Raghaveshwara Bharathi Swamiji. Discover the philosophy behind the four mathas established by Shankaracharya, explore plants mentioned in the Ramayana with their medicinal uses, traverse the sacred lands featured in the epic, and resonate with mantras dedicated to Shri Ram. In the days to come, anticipate a transformation with the integration of creative AI images, audio-video elements, live portrayals of Ramayana characters in contemporary settings, and a dedicated section on the Ayodhya Ram Mandir. I dedicate this heartfelt endeavor to my parents, the guiding light of Shri Raghaveshwara Bharathi Swamiji, and to the divine spirit of Shri Ram. May its.ramayan inspire and guide all seekers on their spiritual journey.`,
       kannada_content: `
       ಸದ್ಗುಣ ಮತ್ತು ಪರಿಪೂರ್ಣತೆಯ ಪ್ರತಿರೂಪವಾದ ಶ್ರೀ ರಾಮ, ದೈವಿಕತೆಯನ್ನು ನಂಬುವ ಲಕ್ಷಾಂತರ ಭಾರತೀಯರ ಪಾಲಿಸುವ ಭಾವನೆ ಶ್ರೀ ರಾಮ.
       
@@ -151,7 +143,7 @@ function Hero(){
             <div className="image-section">
               {contents.map((content)=>{
                 return(
-                  <img src={content.img}/>
+                  <img src={content.img} alt="mainphoto" loading="lazy"/>
                 )
               })}
             </div>
@@ -184,7 +176,7 @@ function Hero(){
                   <div key={incarnation.id} className="incarnation-section">
                     <div className="incarnation">
                       <div className="incarnation-image">
-                        <img src={incarnation.img} alt={incarnation.name} />
+                        <img src={incarnation.img} alt={incarnation.name} loading="lazy"/>
                       </div>
                       <div className="incarnation-info">
                         <h1>

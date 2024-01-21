@@ -138,7 +138,7 @@ function Places(){
                 {places.map((place) => (
                 <div key={place.nameinEnglish} className="placeContainer">
                     <div className="image-container">
-                        <img src={place.img} alt={place.nameinEnglish} />
+                        <img src={place.img} alt={place.nameinEnglish} loading="lazy"/>
                     </div>
                     <div className="name-container">
                         <h3>{language === "english" ? place.nameinEnglish : place.nameinKannada}</h3>

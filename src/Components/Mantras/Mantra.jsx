@@ -16,36 +16,22 @@ function Mantras(){
                      'Shatrughna Kavacham',
                      'Naama Ramayana',
                      'Ramayana Jaya Mantra',
-                     'Spatarshi Ramayana',
+                     'Saptarshi Ramayana',
                      'Sankshepa Ramayana',
                      'Raghava Stotra',
                      'Rama Kavacham',
-                     'Sri Rama Pancharatnam',
-                     'Sri Rama Raksha Stotra',
-                     'Narada Kruta Rama Stuti',
-                     'Jatayu Kruta Rama Stuti',
-                     'Ahalya Kruta Rama Stuti',
-                     'Rama Sahasranamaavali',
-                     'Sita Sahasranamaavali',
-                     'Sri Rama Dvadasha Nama',
+                    //  'Sri Rama Pancharatnam',
+                    //  'Sri Rama Raksha Stotra',
+                    //  'Narada Kruta Rama Stuti',
+                    //  'Jatayu Kruta Rama Stuti',
+                    //  'Ahalya Kruta Rama Stuti',
+                    //  'Rama Sahasranamaavali',
+                    //  'Sita Sahasranamaavali',
+                    //  'Sri Rama Dvadasha Nama',
                     ]
 
     return(
         <div className="mantras">
-            <div className="selection">
-                <label>
-                    <input 
-                     type="radio"
-                     name="language"
-                    />English
-                </label>
-                <label>
-                    <input 
-                     type="radio"
-                     name="language"
-                    />Kannada
-                </label>
-            </div>
             <div className="mantraContainer">
             {mantras.map((mantra, index)=>{
                 return <Link to={`/mantras/${mantra.toLowerCase().replace(/\s+/g, '-')}`}>

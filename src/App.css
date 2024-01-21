@@ -14,12 +14,24 @@
 
 
 @media (max-width: 767px) {
-  .language{
+  .selection{
     display: flex;
-    width: 90vw;
-    margin: auto;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
+    margin-top: 9vh;
+    margin-right: 20px;
+  
+  }
+}
+@media (min-width: 768px) and (max-width: 991px){
+  .selection{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    margin-top: 9vh;
+    margin-right: 20px;
+  
   }
 }

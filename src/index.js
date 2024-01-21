@@ -11,10 +11,8 @@ import Ramastakam from './Components/Mantras/MantraPages/Ramastakam';
 import SitaRamaStotram from './Components/Mantras/MantraPages/SitaRamaStotram';
 import SitaKavacham from './Components/Mantras/MantraPages/SitaKavacham';
 import GayatriRamayanam from './Components/Mantras/MantraPages/GayatriRamayanam';
-import Ramayana from './Components/Ramayana';
 import ContactForm from './Components/Contact/ContactUs';
 import Home from './Components/Gurukula/Home';
-import ShriGuruCharitre from './Components/Gurukula/Charitra/ShriGuruCharitre';
 import Shridhara from './Components/Gurukula/Varadahalli/shridhara';
 import Shankara from './Components/Gurukula/Parampara/Shankara';
 import Raghavendra from './Components/Gurukula/Mantralay/Raghavendra';
@@ -23,89 +21,108 @@ import JanakiJeevana from './Components/Mantras/MantraPages/JanakiJeevana';
 import LakshmanaKavacham from './Components/Mantras/MantraPages/LakshmanaKavacham';
 import BharathaKavacham from './Components/Mantras/MantraPages/BharathaKavacham';
 import Plants from './Components/Plants/Plants';
+import Contact from './Components/Contact/ContactUs';
+import ShatrughnaKavacham from './Components/Mantras/MantraPages/ShatrughnaKavacham';
+import NamaRamayanam from './Components/Mantras/MantraPages/NamaRamayanam';
+import JayaMantra from './Components/Mantras/MantraPages/JayaMantra';
+import Sankshepa from './Components/Mantras/MantraPages/Sankshepa';
+import Raghava from './Components/Mantras/MantraPages/Raghava';
+import RamaKavacham from './Components/Mantras/MantraPages/RamaKavacham';
+import RamayanaHome from './Components/Ramayana/Home';
+import Balakanda from './Components/Ramayana/Chapters/Balakanda';
+import AyodhyaKanda from './Components/Ramayana/Chapters/AyodhyaKanda';
+import AranyaKanda from './Components/Ramayana/Chapters/AranyaKanda';
 
 const router = createBrowserRouter([{
   path: "/",
   element: <App/>,
   children: [
     {
-      path: "",
-      element: <Hero/>
+      path: "", element: <Hero/>
     },
     {
-      path: "/ramayan",
-      element: <Ramayana/ >
+      path: "/ramayan", element: <RamayanaHome/>
     },
     {
-      path: "/mantras",
-      element: <Mantras/>
+      path: "/ramayan/bala-kanda", element: <Balakanda/>
     },
     {
-      path: "/places",
-      element: <Places/>
+      path: "/ramayan/ayodhya-kanda", element: <AyodhyaKanda/>
     },
     {
-      path: "/gurudeepika",
-      element: <Home/>
+      path: "/ramayan/aranya-kanda", element: <AranyaKanda/>
     },
     {
-      path: "/mantras/raghavastakam",
-      element: <Raghavastakam/>
+      path: "/mantras", element: <Mantras/>
     },
     {
-      path: "/mantras/rama-astakam",
-      element: <Ramastakam/>
+      path: "/places", element: <Places/>
     },
     {
-      path: "/mantras/sita-rama-stotram",
-      element: <SitaRamaStotram/>
+      path: "/gurudeepika", element: <Home/>
     },
     {
-      path: "/mantras/sita-kavacham",
-      element: <SitaKavacham/>
+      path: "/mantras/raghavastakam", element: <Raghavastakam/>
     },
     {
-      path: "/mantras/gayatri-ramayanam",
-      element: <GayatriRamayanam/>
+      path: "/mantras/rama-astakam", element: <Ramastakam/>
     },
     {
-      path: "/mantras/eka-shloki-ramayana",
-      element: <EkaShlokiRamayanam/>
+      path: "/mantras/sita-rama-stotram", element: <SitaRamaStotram/>
     },
     {
-      path: "/mantras/janaki-jeevana-astakam",
-      element: <JanakiJeevana/>
+      path: "/mantras/sita-kavacham", element: <SitaKavacham/>
     },
     {
-      path: "/mantras/lakshmana-kavacham",
-      element: <LakshmanaKavacham/>
+      path: "/mantras/gayatri-ramayanam", element: <GayatriRamayanam/>
     },
     {
-      path: "/mantras/bharatha-kavacham",
-      element: <BharathaKavacham/>
+      path: "/mantras/eka-shloki-ramayana", element: <EkaShlokiRamayanam/>
     },
     {
-      path: "/contact-us",
-      element: <ContactForm/>
-    },
-    { path: "/gurukula/shri-guru-charitre",
-      element: <ShriGuruCharitre/>
+      path: "/mantras/janaki-jeevana-astakam", element: <JanakiJeevana/>
     },
     {
-      path: "/gurukula/shri-adi-shankaracharya",
-      element: <Shankara/>
+      path: "/mantras/lakshmana-kavacham", element: <LakshmanaKavacham/>
     },
     {
-      path: "/gurukula/shri-shridhara-swamy",
-      element: <Shridhara/>
+      path: "/mantras/bharatha-kavacham", element: <BharathaKavacham/>
     },
     {
-      path: "/gurukula/shri-raghavendra-swamy",
-      element: <Raghavendra/>
+      path: "/mantras/shatrughna-kavacham", element: <ShatrughnaKavacham/>
     },
     {
-      path: "/plants",
-      element: <Plants/>
+      path: "/mantras/naama-ramayana", element: <NamaRamayanam/>
+    },
+    {
+      path: "/mantras/ramayana-jaya-mantra", element: <JayaMantra/>
+    },
+    {
+      path: "/mantras/sankshepa-ramayana", element: <Sankshepa/>
+    },
+    {
+      path: "/mantras/raghava-stotra", element: <Raghava/>
+    },
+    {
+      path: "/mantras/rama-kavacham", element: <RamaKavacham/>
+    },
+    {
+      path: "/contact-us", element: <ContactForm/>
+    },
+    {
+      path: "/gurukula/shri-adi-shankaracharya", element: <Shankara/>
+    },
+    {
+      path: "/gurukula/shri-shridhara-swamy", element: <Shridhara/>
+    },
+    {
+      path: "/gurukula/shri-raghavendra-swamy", element: <Raghavendra/>
+    },
+    {
+      path: "/plants", element: <Plants/>
+    },
+    {
+      path: "/contact", element: <Contact/>
     }
   ]
 }])

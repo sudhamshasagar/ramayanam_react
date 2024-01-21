@@ -1,70 +1,57 @@
-import React, { useState } from 'react';
+// Contact.js
 
-const ContactForm = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-    instagram: '',
-  });
+import React from 'react';
+import './ContactUs.css';
+import { Link } from 'react-router-dom';
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    try {
-      const response = await fetch('http://localhost:3001/submit-form', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
-
-      if (response.ok) {
-        console.log('Form submitted successfully');
-        // Optionally, reset the form fields
-        setFormData({
-          name: '',
-          email: '',
-          message: '',
-          instagram: '',
-        });
-      } else {
-        console.error('Failed to submit form');
-      }
-    } catch (error) {
-      console.error('Error submitting form:', error);
-    }
-  };
+const Contact = () => {
+  const developers = [
+    { name: 'Sudhamsha Sagar', photo: './Images/dev1.jpg', contributions: 'Contributions: Drawing inspiration from a webpage at IIT showcasing a similar project, I took charge of conceptualizing, creating content, generating AI images, and executing the coding part. This project reflects my dedication to bringing innovative ideas to life.' },
+    { name: 'Sumanth Ullas Prabhu', photo: './Images/dev2.png', contributions: 'Contributions: Played a significant role in the coding part, contributing to the development of specific pages. Additionally, took charge of hosting the project, ensuring its accessibility and seamless online presence.' },
+    // Add more developers as needed
+  ];
 
   return (
-    <div>
-      <h2>Contact Us</h2>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required />
-
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required />
-
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" name="message" value={formData.message} onChange={handleChange} required></textarea>
-
-        <label htmlFor="instagram">Instagram:</label>
-        <input type="text" id="instagram" name="instagram" value={formData.instagram} onChange={handleChange} />
-
-        <button type="submit">Submit</button>
-      </form>
+    <div className="contact-container">
+      <div className="title_social">
+        <h1>Contact Us</h1>
+        <div className="contact-links">
+          <a href="https://wa.me/+917975073574" target="_blank" rel="noopener noreferrer">
+            <div className="social">
+              <i className="fa-brands fa-whatsapp"></i>
+            </div>
+          </a>
+          <a href="https://instagram.com/its.ramayan?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer">
+            <div className="social">
+              <i className="fa-brands fa-instagram"></i>
+            </div>
+          </a>
+          <a href="mailto:sudhamshasagar@gmail.com" target="_blank">
+            <div className="social">
+              <i className="fa-solid fa-envelope"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div className="developers-section">
+        <h2>Our Team</h2>
+        <div className="developer-cards">
+          {developers.map((developer, index) => (
+            <div key={index} className="developer-card">
+              <img src={developer.photo} alt={developer.name} className="developer-image" />
+              <div className="developer-info">
+                <p className="name">{developer.name}</p>
+                <p className="contributions">{developer.contributions}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="copyright-section">
+        <p>&copy; 2024 its.ramayan. All rights reserved.</p>
+      </div>
     </div>
   );
 };
 
-export default ContactForm;
+export default Contact;
