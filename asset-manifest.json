@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ramayanam_react/static/css/main.56553b9c.css",
-    "main.js": "/ramayanam_react/static/js/main.051d3c18.js",
+    "main.css": "/ramayanam_react/static/css/main.ef92cfbb.css",
+    "main.js": "/ramayanam_react/static/js/main.6af84943.js",
     "index.html": "/ramayanam_react/index.html",
-    "main.56553b9c.css.map": "/ramayanam_react/static/css/main.56553b9c.css.map",
-    "main.051d3c18.js.map": "/ramayanam_react/static/js/main.051d3c18.js.map"
+    "main.ef92cfbb.css.map": "/ramayanam_react/static/css/main.ef92cfbb.css.map",
+    "main.6af84943.js.map": "/ramayanam_react/static/js/main.6af84943.js.map"
   },
   "entrypoints": [
-    "static/css/main.56553b9c.css",
-    "static/js/main.051d3c18.js"
+    "static/css/main.ef92cfbb.css",
+    "static/js/main.6af84943.js"
   ]
 }
